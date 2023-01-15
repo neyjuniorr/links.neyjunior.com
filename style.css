@@ -1,33 +1,45 @@
 @charset "UTF-8"; 
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Concert+One&family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Concert+One&family=East+Sea+Dokdo&family=Lobster+Two&display=swap');
 
-* { 
-    margin: 0px;
-    padding: 0px;
-}
+
 
 html {
-    background-image: url(imagens/pexels-gradienta-7130475.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
     display: table;
     height: 100vw;
     margin: auto;
-    background-color: black;
     min-width: 200px;
     max-width: 1200px;
     
 }
+
+body { 
+    margin: auto;
+    height: 100vh;
+    background-image: url(imagens/azul.jpg); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow: 300px;
+}
+ h1 {
+    background-color: rgba(243, 243, 219, 0.849); 
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 3px;
+    
+    }
    header { 
-    text-align: center;
+    text-align: center;    
+    color: rgba(0, 0, 0, 0.945);
+    
+    margin: 30px;
+    font-size: 15px;
     font-family: 'Bree Serif', serif;
     font-family: 'Concert One', cursive;
     font-family: 'East Sea Dokdo', cursive;
-    color: darkgrey;
-    text-shadow: 2px 2px 2px black;
-    margin: 30px;
-    font-size: 30px;
+    font-family: 'Lobster Two', cursive;
     
    }
 img { 
@@ -38,6 +50,7 @@ img {
 article#instagram { 
     text-align: center;
     margin: auto;
+    
     
      
 
